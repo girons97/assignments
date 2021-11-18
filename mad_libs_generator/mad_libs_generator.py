@@ -9,6 +9,7 @@ body_part_1 = input('Input a body part: ')
 location_1 = input('Input a location: ')
 brand_name_1 = input('Input a popular brand name: ')
 
+# This is from Trainspotting (R-rated lol!)
 
 
 print('''Choose us. Choose ''' + noun_1 +''' . Choose ''' + noun_2 + '''; choose washing machines; choose ''' + noun_3 + ''';
