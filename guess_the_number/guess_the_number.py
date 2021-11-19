@@ -1,5 +1,4 @@
 import random
-import sys
 secret_number = random.randint(0,100)
 
 def guess_a_num():
