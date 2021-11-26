@@ -19,6 +19,7 @@ while True:
     guess = guess_a_num()
     if is_guess_a_pos_whole_num(guess):
         if guess == secret_number:
+            print('You win!')
             break
         elif guess > secret_number:
             print('You guessed too high, guess again!')
@@ -27,5 +28,5 @@ while True:
     else:
         print('You need to guess a positive, whole number between 0 and 100!')
 
-print('You win!')
+
 
